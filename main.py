@@ -1,4 +1,4 @@
-from operations import soma, subtracao, multiplicacao, divisao #Pega essas funções que estão no arquivo operations.py e traz pra cá
+from operations import add, subtract, multiply, divide #Pega essas funções que estão no arquivo operations.py e traz pra cá
 
 def mostrar_menu(): #Uma função que apenas exibe o menu, não calcula nada, não retorna nada
     print("\n=== CALCULADORA PYTHON ===")
@@ -25,13 +25,13 @@ def main(): # Função principal
                 num2 = float(input("Digite o segundo número: "))
 
                 if opcao == "1":
-                    resultado = soma(num1, num2)
+                    resultado = add(num1, num2)
                 elif opcao == "2":
-                    resultado = subtracao(num1, num2)
+                    resultado = subtract(num1, num2)
                 elif opcao == "3":
-                    resultado = multiplicacao(num1, num2)
+                    resultado = multiply(num1, num2)
                 elif opcao == "4":
-                    resultado = divisao(num1, num2)
+                    resultado = divide(num1, num2)
                 
                 print(f"Resultado: {resultado}")
 
