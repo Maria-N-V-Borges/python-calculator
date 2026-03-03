@@ -23,14 +23,16 @@ A simple command-line calculator built in Python as a collaborative learning pro
 - Git & GitHub
 
 ## 📂 Project Structure
-"""
+
+```
 python-calculator/
 │
 ├── main.py
 ├── operations.py
 └── README.md
-"""
+```
+
 ## ▶ How to Run
-"""
+```
 python main.py
-"""
+```
