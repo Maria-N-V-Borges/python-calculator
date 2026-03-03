@@ -2,7 +2,7 @@ from operations import add, subtract, multiply, divide #Pega essas funções que
 
 def show_menu(): #Uma função que apenas exibe o menu, não calcula nada, não retorna nada
     print("\n=== PYTHON CALCULATOR ===")
-    print("1 - Additio")
+    print("1 - Addition")
     print("2 - Subtraction")
     print("3 - Multiplication")
     print("4 - Division")
@@ -21,8 +21,8 @@ def main(): # Função principal
 
         if option in ["1", "2", "3", "4"]: #Verificação de opções válidas
             try: #Tratamento de erro
-                num1 = float(input("Digite o primeiro número: "))
-                num2 = float(input("Digite o segundo número: "))
+                num1 = float(input("Enter the first number: "))
+                num2 = float(input("Enter the second number: "))
 
                 if option == "1":
                     result = add(num1, num2)
