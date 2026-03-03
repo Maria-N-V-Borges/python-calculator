@@ -1,13 +1,36 @@
-## Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Input validation
-- Error handling
+# 📌 Python Calculator
 
-## Technologies
+A simple command-line calculator built in Python as a collaborative learning project.
+
+## 🚀 Features
+
+- Addition
+
+- Subtraction
+
+- Multiplication
+
+- Division
+
+- Division by zero handling
+
+- Input validation
+
+## 🛠 Technologies
+
 - Python 3
 
-## Goal
-Practice programming logic and collaborative development using Git.
+- Git & GitHub
+
+## 📂 Project Structure
+"""
+python-calculator/
+│
+├── main.py
+├── operations.py
+└── README.md
+"""
+## ▶ How to Run
+"""
+python main.py
+"""
