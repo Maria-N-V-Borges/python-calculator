@@ -1,4 +1,5 @@
 from operations import add, subtract, multiply, divide #Pega essas funções que estão no arquivo operations.py e traz pra cá
+from math_game import jogar
 
 def show_menu(): #Uma função que apenas exibe o menu, não calcula nada, não retorna nada
     print("\n=== PYTHON CALCULATOR ===")
